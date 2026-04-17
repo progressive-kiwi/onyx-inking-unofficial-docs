@@ -14,7 +14,11 @@ jobs:
       pages: write
       id-token: write
     steps:
+    - uses: actions/checkout@v4
+    - uses: astral-sh/setup-uv@v5
+    - run: uv export --no-dev --no-hashes --no-emit-project -o docs/requirements.txt
     - id: deployment
       uses: sphinx-notes/pages@v3
       with:
         documentation_directory: docs
+        requirements_file: docs/requirements.txt
