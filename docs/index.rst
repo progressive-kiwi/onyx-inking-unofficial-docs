@@ -1,6 +1,8 @@
 Unofficial Onyx SDK Docs
 ========================
 
+GitHub: https://github.com/progressive-kiwi/onyx-inking-unofficial-docs
+
 .. warning:: AI-Generated Documentation
 
    This documentation was produced by an AI assistant (Claude). Knowledge was

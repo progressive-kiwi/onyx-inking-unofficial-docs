@@ -1,5 +1,9 @@
 # Unofficial Onyx SDK Docs
 
+https://github.com/progressive-kiwi/onyx-inking-unofficial-docs
+
+**Deployed site:** https://progressive-kiwi.github.io/onyx-inking-unofficial-docs/
+
 Unofficial documentation for the Onyx BOOX e-ink Android SDK, covering the
 `onyxsdk-pen`, `onyxsdk-base`, and `onyxsdk-device` modules.
 
