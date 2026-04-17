@@ -1,0 +1,12 @@
+version: '3'
+tasks:
+
+  docs:build:
+    desc: Build the HTML docs (output → docs/_build/html)
+    cmds:
+      - uv run  sphinx-build -a -E -b html . ./_build/html
+
+  docs:serve:
+    desc: Build docs and serve with live-reload at http://localhost:8000
+    cmds:
+      - uv run  sphinx-autobuild . ./_build/html --port 8000
