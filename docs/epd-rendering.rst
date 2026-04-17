@@ -1,6 +1,13 @@
 EPD Rendering
 =============
 
+.. note::
+
+   **EPD** stands for *Electrophoretic Display* — the technology behind e-ink
+   screens. Charged pigment particles migrate through a fluid in response to an
+   electric field, producing the high-contrast, paper-like image characteristic
+   of BOOX devices.
+
 How the e-ink display waveforms work, how the SDK interacts with them, and
 how to control them from your app via ``EpdController``.
 

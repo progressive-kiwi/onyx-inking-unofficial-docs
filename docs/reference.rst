@@ -1,5 +1,5 @@
-API Reference
-=============
+Overview
+========
 
 Classes and methods extracted from ``onyxsdk-pen:1.4.12``,
 ``onyxsdk-base:1.7.7``, and ``onyxsdk-device:1.2.31`` via ``javap``.
@@ -7,22 +7,8 @@ Entries for other SDK modules are sourced from the official
 `OnyxAndroidDemo <https://github.com/onyx-intl/OnyxAndroidDemo>`_ documentation.
 All descriptions without official Javadoc are **[AI Generated]**.
 
-.. toctree::
-   :hidden:
 
-   reference/pen
-   reference/base
-   reference/device
-
-.. contents::
-   :local:
-   :depth: 1
-   :class: this-will-duplicate-information-and-it-is-still-useful-here
-
-----
-
-SDK Modules
------------
+.. rubric:: SDK Modules
 
 All modules share the Maven group ``com.onyx.android.sdk`` and are hosted at
 ``https://repo.boox.com/repository/maven-public/``. Add the repository once
@@ -76,8 +62,7 @@ module. All three actively maintained modules should use ``transitive = false``
 
 ----
 
-onyxsdk-pen
------------
+.. rubric:: onyxsdk-pen
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-pen:1.4.12``
 :Root package: ``com.onyx.android.sdk.pen``
@@ -120,8 +105,7 @@ This is the only actively maintained SDK module for pen input.
 
 ----
 
-onyxsdk-base
-------------
+.. rubric:: onyxsdk-base
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-base:1.7.7``
 :Root package: ``com.onyx.android.sdk``
@@ -168,8 +152,7 @@ pull in a different version than expected.
 
 ----
 
-onyxsdk-device
---------------
+.. rubric:: onyxsdk-device
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-device:1.2.31``
 :Root package: ``com.onyx.android.sdk.api.device``
@@ -224,8 +207,7 @@ Most drawing apps need both this module and ``onyxsdk-pen``.
 
 ----
 
-onyxsdk-scribble (deprecated)
-------------------------------
+.. rubric:: onyxsdk-scribble (deprecated)
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-scribble:1.0.8``
 :Last release: November 2018
@@ -251,8 +233,7 @@ the old API; they are preserved for migration reference only.
 
 ----
 
-onyxsdk-data
-------------
+.. rubric:: onyxsdk-data
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-data:1.1.2.17``
 :Last release: January 2021
@@ -318,8 +299,7 @@ ecosystem integrations. Bundles several large third-party libraries:
 
 ----
 
-onyxsdk-notedata
-----------------
+.. rubric:: onyxsdk-notedata
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-notedata:1.0``
 :Last release: October 2020
@@ -358,8 +338,7 @@ as the system Notes app. For custom document formats, store strokes from
 
 ----
 
-onyxsdk-note
-------------
+.. rubric:: onyxsdk-note
 
 :Artifact: ``com.onyx.android.sdk:onyxsdk-note:1.0.5``
 :Last release: October 2020
