@@ -1,5 +1,7 @@
 # TODO
 
+This file is to keep track of LLM generated content inaccuracies. 
+
 ## Unclear / missing documentation
 
 - **TouchRender**: mentioned in `epd-rendering.rst` and `architecture.rst` but never defined. Unclear whether it is a public class, internal SDK component, or an alias for something else. Needs research and a proper description (what it is, its relation to `TouchHelper`, and any relevant API surface).
